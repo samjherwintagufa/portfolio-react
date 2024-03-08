@@ -136,6 +136,7 @@ function App() {
         <CardMedia
           component="img"
           height="140"
+          width="auto"
           image={education}
           alt="Icon representing [insert description here]"
         />
@@ -162,6 +163,7 @@ function App() {
         <CardMedia
           component="img"
           height="140"
+          width="auto"
           image={skills}
           alt="Icon representing [insert description here]"
         />
@@ -188,6 +190,7 @@ function App() {
         <CardMedia
           component="img"
           height="140"
+          width="auto"
           image={personalinfo}
           alt="Icon representing [insert description here]"
         />
