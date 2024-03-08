@@ -173,7 +173,7 @@ function App() {
           <span className='education'>
               <label>C# | JAVA | PYTHON | PYTHON FLASK | C++ | VB.NET</label>
               <label>HTML | CSS | JS | PHP | REACT | JQUERY | BOOTSTRAP</label>
-              <label>MYSQL hagdgasdgashgd</label>
+              <label>MYSQL | ORACLE</label>
               
             </span>
           </Typography>
