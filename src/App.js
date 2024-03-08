@@ -171,7 +171,7 @@ function App() {
           </Typography>
           <Typography variant="body2" color="text.secondary">
           <span className='education'>
-              <label>C# | JAVA | PYTHON | C++ | VB.NET</label>
+              <label>C# | JAVA | PYTHON | PYTHON FLASK | C++ | VB.NET</label>
               <label>HTML | CSS | JS | PHP | REACT | JQUERY | BOOTSTRAP</label>
               <label>MYSQL</label>
               
