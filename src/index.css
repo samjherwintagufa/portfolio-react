@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+main{
+  min-height: 70vh;
+}
+footer{
+
+  min-height: 10vh;
+  padding: 10px;
+}
+header{
+
+  min-height: 10vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+.container-div{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.child-div{
+  width: 300px;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+.profilepic{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* CSS for mobile phones */
+@media only screen and (max-width: 480px) {
+  .container-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+   
+  }
+  .child-div{
+    width: 100%;
+    padding: 10px;
+    background-color: antiquewhite;
+    text-align: start;
+  }
+  header{
+    justify-content: center;
+  }
+  
+}
