@@ -24,6 +24,7 @@ import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import Drawer from './components/Drawer';
 
 function App() {
   const name = "Sam Jherwin Tagufa";
@@ -214,6 +215,7 @@ function App() {
     </Card>
         </div>
       </main>
+      <Drawer />
       <Footer />
     </div>
   );
