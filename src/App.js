@@ -203,7 +203,7 @@ function App() {
           <span className='education'>
               <label>Github: samjherwintagufa</label>
               <label>Email: sanadosam0@gmail.com</label>
-              <label>Facebook: Sam Jherwin Sanado Tagufa</label>
+              <label>Facebook: Sam Jherwin Sanado Tagufa kasdasdgasjhgdgsjh</label>
               
             </span>
           </Typography>
