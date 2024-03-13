@@ -32,7 +32,9 @@ export default function TemporaryDrawer() {
       style={{ 
         width: '100px', // Adjust size as needed
         height: '100px', // Adjust size as needed
-        margin: 'auto', // Centers the avatar horizontally
+        margin: 'auto',
+        marginBottom: '20px',
+        marginTop: '20px' // Centers the avatar horizontally
       }}  />
   {['Curriculum Vitae', 'Educational achievements', 'Programming Languages', 'Web Dev'].map((text, index) => (
     <ListItem key={text} disablePadding>
